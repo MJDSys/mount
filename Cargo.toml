@@ -10,5 +10,5 @@ license = "MIT"
 keywords = ["iron", "web", "handler", "routing"]
 
 [dependencies]
-iron = "0.5"
+iron = { git = "https://github.com/MJDSys/iron", branch = "async" }
 sequence_trie = "0.2"
